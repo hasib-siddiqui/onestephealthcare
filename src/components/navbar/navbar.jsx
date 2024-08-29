@@ -7,16 +7,25 @@ const Navbar = () => {
       link: "#",
     },
     {
+      linkName: "Book now",
+      link: "#book",
+    },
+    {
       linkName: "Tests",
-      link: "#",
+      link: "#tests",
     },
     {
       linkName: "About",
-      link: "#",
+      link: "#about",
+    },
+
+    {
+      linkName: "Customer Review",
+      link: "#review",
     },
     {
       linkName: "Contact",
-      link: "#",
+      link: "#contact",
     },
   ];
   return (
@@ -24,7 +33,7 @@ const Navbar = () => {
       {Navlist.map((item, index) => {
         return (
           <div key={index}>
-            <li>
+            <li className="max-sm:p-2">
               <a href={item.link}>{item.linkName}</a>
             </li>
           </div>

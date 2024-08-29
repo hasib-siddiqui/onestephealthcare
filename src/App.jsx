@@ -6,16 +6,21 @@ import About from "./components/about/about";
 import Appointment from "./components/appointment/appointment";
 import Hero from "./components/hero/hero";
 import Footer from "./components/footer/footer";
+import Wrapper from "./components/wrapper";
+import TestimonialsCarousel from "./components/testimonialsCarousel/testimonialsCarousel";
 
 const App = () => {
   return (
     <>
       <Header />
       <Hero />
-      <Appointment />
-      <Tests />
-      <PopularTests />
-      <About />
+      <Wrapper>
+        <Appointment />
+        <Tests />
+        <PopularTests />
+        <About />
+        <TestimonialsCarousel />
+      </Wrapper>
       <Footer />
     </>
   );

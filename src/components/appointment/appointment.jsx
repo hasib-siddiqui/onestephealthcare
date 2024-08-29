@@ -6,7 +6,10 @@ import "./appointment.css";
 const Appointment = () => {
   return (
     <>
-      <h2 className="text-[--bgBlue] text-center text-5xl my-20">
+      <h2
+        className="text-[--bgBlue] text-center sm:text-5xl text-4xl my-20"
+        id="book"
+      >
         Book Your Appointment Now!!
       </h2>
       <div className="heroSection">

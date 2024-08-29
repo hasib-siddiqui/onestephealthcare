@@ -226,3 +226,35 @@ export const heroData = {
     },
   ],
 };
+export const testimonialsData = [
+  {
+    image: "https://www.metropolisindia.com/newdata/images/bang-testi1.png",
+    text: "Delightful experience at Metropolis Healthcare branch. Ms. Prajakta is courteous, professional in her approach, & believes in service-with-smile attitude. Waiting time was least possible, Reports were emailed same day evening. Overall good service-oriented approach. Good job, keep up the good show. Thank you.",
+    name: "Kedar",
+  },
+  {
+    image: "https://www.metropolisindia.com/newdata/images/bang-testi2.png",
+    text: "I was very satisfied with how professional the staff was. This was my first time ever having a blood test done with them and they made it really easy and simple. I would recommend them to anyone who needs a blood test or any type of check up.",
+    name: "Dheeman",
+  },
+  {
+    image: "https://www.metropolisindia.com/newdata/images/bang-testi3.png",
+    text: "I have tried a lot of these services and Metropolis is the best of them all, they are very prompt and professional.",
+    name: "Punit",
+  },
+  {
+    image: "https://www.metropolisindia.com/newdata/images/bang-test4.png",
+    text: "I contacted Metropolis for my dad, who is diabetic. He didn't have time to go to the hospital for his check up, but with this service he could do a home test. The whole process was very convenient and we got the results in less than 24 hours. Highly recommended!",
+    name: "Reneeka",
+  },
+  {
+    image: "https://www.metropolisindia.com/newdata/images/bang-test5.png",
+    text: "Every Time you choose Metropolis it really means you choose Accuracy. Seriously guys Metropolis is supposed to be best Pathological laboratory in India. For Convenience and Accurate blood test report I recommend Metropolis.",
+    name: "Bena",
+  },
+  {
+    image: "https://www.metropolisindia.com/newdata/images/bang-test6.png",
+    text: "Very good staff, excellent execution of samples, timely results even before promised time.",
+    name: "Ishwarakrishnan",
+  },
+];

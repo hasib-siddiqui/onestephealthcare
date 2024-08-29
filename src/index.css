@@ -44,6 +44,16 @@ body {
   transform: translateY(-4px);
 }
 .gradient-background {
-  background: linear-gradient(to left, #012c3e, #0383b9, #9ad3eb);
+  background-image: url("https://rabs-rho.vercel.app/assets/hero-CguKwJrn.svg");
+  /* background: linear-gradient(to left, #012c3e, #0383b9, #9ad3eb); */
   width: 100%;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

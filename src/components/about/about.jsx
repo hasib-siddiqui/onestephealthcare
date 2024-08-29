@@ -50,20 +50,19 @@ const features = [
 const About = () => {
   return (
     <>
-      <h2 className="text-[--bgBlue] text-center text-5xl my-20">About us</h2>
-      <section
-        id="about"
-        className="flex items-center sm:gap-[200px] w-full p-10"
-      >
+      <h2 className="text-[--bgBlue] text-center text-5xl my-20" id="about">
+        About us
+      </h2>
+      <section className="flex items-center sm:gap-[200px] w-full max-sm:flex-col">
         <img
           alt="One Step Health Care Image"
-          className="choose-metro-img lazyloaded rounded-xl w-[40%] h-[300px]"
+          className="choose-metro-img lazyloaded rounded-xl sm:w-[40%] sm:h-[300px] max-sm:mb-5"
           src="https://plus.unsplash.com/premium_photo-1663011406193-7beb9d225d31?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         <div className="container mx-auto">
           <div className="flex flex-wrap">
             <div className="">
-              <h3 className="text-black mb-12 font-semibold text-2xl md:text-4xl">
+              <h3 className="text-black sm:mb-12 mb-5 font-semibold text-2xl md:text-4xl">
                 Why choose One Step Health Care Healthcare?
               </h3>
               <div className="flex flex-wrap">

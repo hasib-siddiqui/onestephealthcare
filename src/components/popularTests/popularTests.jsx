@@ -11,11 +11,11 @@ const PopularTests = () => {
 
   return (
     <div className="my-28">
-      <h2 className="text-[--bgBlue] text-center text-5xl my-20">
+      <h2 className="text-[--bgBlue] text-center sm:text-5xl text-4xl my-20">
         Most Common Test&apos;s
       </h2>
 
-      <div className="mt-5 flex flex-col md:flex-row px-8">
+      <div className="mt-5 flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <ul className="nav flex flex-col">
             {popularTestData.map((test) => (
@@ -43,7 +43,7 @@ const PopularTests = () => {
           {popularTestData.map((test) => (
             <div
               key={test.id}
-              className={`tab-pane ${
+              className={`tab-pane max-sm:mt-10 ${
                 activeTab === test.id ? "block" : "hidden"
               }`}
             >
@@ -75,6 +75,7 @@ const PopularTests = () => {
                       href="https://wa.me/919967646399"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="text-4xl text-green-500"
                     >
                       <button className="flex items-center">
                         <FaWhatsapp className="whatsapp-icon" />
