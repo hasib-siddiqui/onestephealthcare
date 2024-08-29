@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  color: var(--bgBlue);
+}
+li a:hover {
+  text-shadow: 2px 2px 12px #0392ce;
+}

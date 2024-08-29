@@ -1,0 +1,80 @@
+.form-container {
+  max-width: 600px;
+  /* padding: 0 20px; */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center content horizontally */
+  border-radius: 12px;
+  overflow: hidden;
+}
+.form-container:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(4px);
+  box-shadow: 0 4px 8px #4f9bf956;
+}
+
+.form-head {
+  background-color: var(--bgBlue);
+  padding: 12px;
+}
+h2 {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+  align-items: center; /* Center form elements horizontally */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select {
+  width: 100%;
+  max-width: 400px; /* Limit width to prevent overly wide inputs */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  border-color: #4f9cf9;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4f9cf9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  transition: all 0.3s ease;
+  background-color: #4891daef;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Change the color of the SVG icon and size */
+.cal-icon {
+  color: white; /* Set SVG color to white */
+  font-size: 30px; /* Adjust size as needed */
+  margin-bottom: 10px; /* Space between SVG and heading */
+}

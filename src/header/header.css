@@ -1,0 +1,38 @@
+header {
+  background-color: var(--bgWhite);
+  box-shadow: 0 2px 12px #0391ce6b;
+}
+
+img {
+  /* height: 30%; */
+  width: 24%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+.logo-btn {
+  display: flex;
+  font-size: 20px;
+  padding: 13px 24px;
+  border: none;
+  border-radius: 12px;
+  background: #0392ce;
+  color: #fff;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-btn:hover {
+  box-shadow: 2px 2px 12px #0392ce;
+  transition: all 0.3s ease-in-out;
+  transform: translate(2px);
+}
+
+.whatsapp-icon {
+  color: #25d366; /* WhatsApp green */
+  font-size: 40px; /* Adjust size as needed */
+}

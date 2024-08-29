@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7fafb;
+}
+
+:root {
+  --bgBlue: #0392ce;
+  --bgWhite: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.shadow-custom {
+  box-shadow: 11px 14px 33px -21px rgba(0, 0, 0, 0.75);
+}
+.test-image {
+  filter: grayscale(100%) sepia(100%) hue-rotate(180deg) saturate(1000%);
+  mix-blend-mode: multiply;
+}
+.test-box {
+  position: relative;
+}
+.test-box::after {
+  content: "";
+  background: #0392ce;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.test-box:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-4px);
+}
+.gradient-background {
+  background: linear-gradient(to left, #012c3e, #0383b9, #9ad3eb);
+  width: 100%;
+}

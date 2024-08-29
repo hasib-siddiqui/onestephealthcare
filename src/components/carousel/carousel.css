@@ -1,0 +1,30 @@
+/* src/Carousel.css */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-slide img.active {
+  opacity: 1;
+}
