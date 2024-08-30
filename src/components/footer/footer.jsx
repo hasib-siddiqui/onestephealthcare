@@ -5,7 +5,7 @@ const navigation = {
       href: "#",
     },
     { name: "healthcare1stop@gmai.com", href: "#" },
-    { name: "+91 93722 63238", href: "#" },
+    { name: "+91 99676 46399", href: "#" },
   ],
   support: [
     { name: "Home", href: "#home" },

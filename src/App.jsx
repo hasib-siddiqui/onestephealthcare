@@ -8,6 +8,7 @@ import Hero from "./components/hero/hero";
 import Footer from "./components/footer/footer";
 import Wrapper from "./components/wrapper";
 import TestimonialsCarousel from "./components/testimonialsCarousel/testimonialsCarousel";
+import OurTeam from "./components/ourteam/ourteam";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Tests />
         <PopularTests />
         <About />
+        <OurTeam />
+
         <TestimonialsCarousel />
       </Wrapper>
       <Footer />
